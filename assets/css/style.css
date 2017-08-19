@@ -1,0 +1,45 @@
+
+#container {
+
+	min-width: 660px;
+
+}
+
+
+#gameBoard {
+
+	background-image: url("../images/container-bg.jpg");
+	text-align: center;
+	padding: 15px;
+}
+
+
+#crystalButtons {
+}
+
+
+
+h2 {
+
+	font-family: arial;
+	size: 10px;
+}
+
+#mainTitle {
+	font-family: arial;
+	background-image: url("../images/banner.jpg");
+	font-size: 40px;
+	background: url("../images/gem.png");
+}
+
+footer {
+
+	font-family: arial;
+	size: 8px;
+	color: white;
+	background: gray;
+	padding: 5px;
+	text-align: right;
+
+
+}
