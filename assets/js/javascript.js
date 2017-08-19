@@ -6,9 +6,17 @@
         var matchWins = 0;
         var matchLosses = 0;
         var audio = new Audio("assets/sounds/computer-beep.mp3")
+        var audio1 = new Audio("assets/sounds/crystal-music.m4a")
 
         var currentTotal = 0;
 
+function bgMusic() {
+audio1.play();
+audio1.loop = true;
+
+};
+
+bgMusic();
 
 function createTargetNumber() {
 
